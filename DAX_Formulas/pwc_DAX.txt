@@ -1,0 +1,26 @@
+Data Analysis (DAX):
+
+
+Average of speed of answerd = AVERAGE('Call centre data'[Speed of answer in seconds])
+
+Average of statisfaction = AVERAGE('Call centre data'[Satisfaction rating])
+
+Count satisfation rating = COUNT('Call centre data'[Satisfaction rating])
+
+Overall Customer Satisfation = DIVIDE([Possitive satisfation rating],[Count satisfation rating],0)
+
+Possitive satisfation rating = CALCULATE(COUNT('Call centre data'[Satisfaction rating]),FILTER('Call centre data','Call centre data'[Satisfaction rating] IN {4,5}))
+
+resolved calls = COUNTX(FILTER('Call centre data','Call centre data'[Resolved] = "Yes"), 'Call centre data'[Resolved])
+
+Unresolved calls = COUNTX(FILTER('Call centre data','Call centre data'[Resolved] = "No"), 'Call centre data'[Resolved])
+
+total calls = CALCULATE('Measuring_Table'[total calls answered] + 'Measuring_Table'[total calls unanswred])
+
+total calls answered = COUNTX(FILTER('Call centre data','Call centre data'[Answered (Y/N)] = "Yes"),'Call centre data'[Answered (Y/N)])
+
+total calls unanswred =COUNTX(FILTER('Call centre data','Call centre data'[Answered (Y/N)] = "No"), 'Call centre data'[Answered (Y/N)])
+
+
+
+
