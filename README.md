@@ -33,6 +33,13 @@ This repository contains a **Power BI dashboard** designed to analyze and visual
 ## 🔗 Dashboard Link  
 👉 **[View the Power BI Dashboard](https://github.com/RahulNaik2611/pwc_call_Centre_Trends/blob/main/powerBi_DashBoard/pwc_call_centre_Trends.pbix)**
 
+## 📊 Power BI Dashboard  
+
+Here’s a preview of the **Call Center Dashboard**:  
+
+![Dashboard Screenshot](https://github.com/RahulNaik2611/pwc_call_Centre_Trends/blob/ef678ebe9941b286335a2811e66909b5386a5133/powerBi_ScreenShort/pwd_overview.png)
+
+![Dashboard Screenshot](https://github.com/RahulNaik2611/pwc_call_Centre_Trends/blob/ef678ebe9941b286335a2811e66909b5386a5133/powerBi_ScreenShort/agend_performance.png)  
 
 
 ## 📊 Key Insights  
