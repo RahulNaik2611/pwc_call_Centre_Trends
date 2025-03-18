@@ -31,7 +31,8 @@ This repository contains a **Power BI dashboard** designed to analyze and visual
 
 
 ## 🔗 Dashboard Link  
-👉 **[View the Power BI Dashboard](YOUR_DASHBOARD_LINK_HERE)**  
+👉 **[View the Power BI Dashboard](https://github.com/RahulNaik2611/pwc_call_Centre_Trends/blob/main/powerBi_DashBoard/pwc_call_centre_Trends.pbix)**
+
 
 
 ## 📊 Key Insights  
@@ -47,10 +48,16 @@ This repository contains a **Power BI dashboard** designed to analyze and visual
 
 ## 📂 Project Structure  
 📂 PWC_Call-Center_Trends
-├── 📊 Dataset/ │ ├── call_center_data.xslx 
-├── 📂 PowerBI_DashBoard/ │ ├── PWC_call_center_Trends.pbix 
-├── 📂Dax_Formulas/ │ ├── pwc_Dax.txt
-├── 📄 README.md 
+│── 📊 Dataset/
+│ ├── call_center_data.xlsx
+│
+│── 📂 PowerBI_DashBoard/
+│ ├── PWC_call_center_Trends.pbix
+│
+│── 📂 DAX_Formulas/
+│ ├── pwc_Dax.txt
+│
+│── 📄 README.md
 
 
 ## 🛠️ Setup & Usage  
